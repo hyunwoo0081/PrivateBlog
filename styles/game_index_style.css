@@ -18,6 +18,14 @@ header {
 	box-shadow: 0 1px 3px gray;
 }
 
+.non_fixed_header {
+	position: relative;
+}
+
+.fixed_header {
+	position: fixed;
+}
+
 #sliding_window {
 	height: 44vh;
 	background-color: slateblue;

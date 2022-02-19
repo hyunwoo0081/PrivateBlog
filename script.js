@@ -9,10 +9,10 @@ document.addEventListener("scroll", () => {
 	
 	if(isHeaderFixed === true && currentScrollValue <= 100){
 		isHeaderFixed = false;
-		headerDom.classList.replace("fixed_header", "non_fixed_header");
+		headerDom.classList.replace("highlighted_header", "normal_header");
 	}
 	else if(isHeaderFixed === false && currentScrollValue >= 100){
 		isHeaderFixed = true;
-		headerDom.classList.replace("non_fixed_header", "fixed_header");
+    headerDom.classList.replace("normal_header", "highlighted_header");		
 	}
 })

@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html>
 	<head>
-    	<meta charset="utf-8">
-    	<meta name="viewport" content="width=device-width">
-    	<title>Dev Blog</title>
-    	<link href="style.css" rel="stylesheet" type="text/css" />
-  	</head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Dev Blog</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
   	<body>
 		<div id="first_layout">
 			<canvas id="first_background"></canvas>
 			
 			<div id="main_header_container">
-				<div id="main_contents_layout" class="non_fixed_header">
+				<div id="main_contents_layout" class="normal_header">
 					<header>
 						<h2>Blog</h2>
 						<ul>
-							<li><a href="#">Home</a></li>
-							<li><a href="./pages/game_index.html">Blog</a></li>
-							<li><a href="#">Pages</a></li>
-							<li><a href="#">Contact</a></li>
+							<li><a href="#first_layout">Home</a></li>
+							<li><a href="https://velog.io/@hyunwoo0081">Blog</a></li>
+							<li><a href="./pages/game_index.html">Pages</a></li>
+							<li><a href="#contact_layout">Contact</a></li>
 						</ul>
 					</header>
 				</div>
@@ -31,39 +31,81 @@
 		</div>
 
 		<div class="page_layout layout1">
-			<h2>게임 만들기 - Todo List</h2>
+			<h3>Tech Stack</h3>
+			<ul class="bedge_layout">
+				<li><img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=black"/></li>
+        <li><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/></li>
+				<li><img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/></li>
+				<li><img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/></li>
+				<li><img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white"/></li>
+				<li><img src="https://img.shields.io/badge/Javascript-F7DF1E?style=flat-square&logo=Javascript&logoColor=black"/></li>
+				<li><img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=white"/></li>
+			</ul>
+		</div>
+
+		<div class="page_layout">
+			<h3>배우고 있는것</h3>
+			<ul class="bedge_layout">
+        <li><img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white"/></li>
+				<li><img src="https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=React&logoColor=black"/></li>
+        <li><img src="https://img.shields.io/badge/Svelte-FF3E00?style=flat-square&logo=Svelte&logoColor=black"/></li>
+        <li><img src="https://img.shields.io/badge/Computer Graphics-F79025?style=flat-square"/></li>
+			</ul>
+		</div>
+
+    <div class="page_layout">
+			<h3>대표 프로젝트</h3>
+			<ul>
+				<li>Minesweeper</li>
+				<li>3D Engine</li>
+				<li>Tetris</li>
+			</ul>
+		</div>
+
+		<div class="page_layout">
+			<h3>추후 방향</h3>
+			<ul>
+				<li>three.js를 이용한 html5 게임 개발</li>
+				<li>3D 렌더링 엔진 자체 개발</li>
+				<li>게임 개발 블로그 활성화</li>
+			</ul>
+		</div>
+		
+		<div class="page_layout">
+			<h3>게임 만들기 - Todo List</h3>
 			<div class="todo_list">
 				<label><input type="checkbox" checked>Minesweeper</label>
 				<label><input type="checkbox" checked>NumberBaseball</label>
 				<label><input type="checkbox" checked>Tetris</label>
 				<label><input type="checkbox" checked>SnakeGame</label>
 				<label><input type="checkbox" checked>BreakingBricks</label>
-				<label><input type="checkbox">2d 횡스크롤 Like CookieRun</label>
+				<label><input type="checkbox" checked>⚠️2d 횡스크롤 Like CookieRun</label>
 				<label><input type="checkbox">마리오?</label>
 				<label><input type="checkbox">슈팅게임</label>
+				<label><input type="checkbox" checked>바운스볼</label>
 				<label><input type="checkbox">디펜스게임-전쟁시대</label>
 				<label><input type="checkbox">핀볼</label>
 				<label><input type="checkbox">풍선터뜨리기</label>
 				<label><input type="checkbox">테라리아</label>
 				<label><input type="checkbox">메이플스토리</label>
 				<label><input type="checkbox">시퀀서</label>
-				<label><input type="checkbox">신디사이저</label>
+				<label><input type="checkbox">▶️신디사이저</label>
+				<label><input type="checkbox" checked>▶️3D Engine</label>
 				<label><input type="checkbox">???</label>
 			</div>
 		</div>
 
-		<div class="page_layout layout2">
-			아.... 너무 졸리다...<br>
-			자고 싶진 않은데 뭐 만들지 모르겠다...
-		</div>
-
-		<div class="page_layout layout1">
-			대충 소개하는 글...
-		</div>
-
-		<div class="page_layout layout2">
-			대충 소개하는 글...
-		</div>
+    <div id="contact_layout" class="page_layout">
+      <h3>Contact</h3>
+      <ul class="bedge_layout">
+        <li><a href="mailto:hyunwoo0081@gmail.com">
+          <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=Gmail&logoColor=white"/>
+        </a></li>
+        <li><a href="https://velog.io/@hyunwoo0081">
+          <img src="https://img.shields.io/badge/Velog-20C997?style=flat-square&logo=Velog&logoColor=white"/>
+        </a></li>
+      </ul>
+    </div>
 
 		<footer>
 			<p>Copyright 2021. Hyunwoo All pictures cannot be copied without permission. </p>

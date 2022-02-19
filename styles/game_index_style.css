@@ -16,6 +16,7 @@ header {
 	justify-content: center;
 	background-color: white;
 	box-shadow: 0 1px 3px gray;
+	overflow:visible;
 }
 
 .non_fixed_header {
